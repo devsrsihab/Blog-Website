@@ -1,0 +1,45 @@
+.card-shadow{
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 10%);
+    border-radius:5px;
+}
+.categorie_heading,.post_heading{
+    padding: 10px 12px;
+    border-left: 6px solid #000;
+    background-color: #ddd;
+}
+.breadcum {
+    padding: 10px 12px;
+    border-bottom: 3px solid #f96301;
+    background-color: white;
+}
+.card-header{
+    background-color: #ddd;
+
+}
+.breadcum span{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.underline{
+    background:red;
+    width:8%;
+    height:3px;
+    margin-bottom: 15px;
+}
+.bg-gray{
+    background-color: #ddd;
+}
+.sinle_post_description{
+
+        word-break: break-word;
+        scrollbar-width: none;
+        width: fit-content;
+        width: 100%;
+        min-width: 100%;
+
+}

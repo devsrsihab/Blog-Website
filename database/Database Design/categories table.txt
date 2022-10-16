@@ -1,0 +1,16 @@
+<--category table-->
+====================   
+$table->id();
+$table->string('name');
+$table->string('slug');
+$table->text('description');
+$table->string('image');
+$table->string('meta_title');
+$table->string('meta_description');
+$table->text('meta_keyword');
+$table->tinyInteger('navbar_status')->default('1');
+$table->tinyInteger('status')->default('1');
+$table->integer('created_by');
+$table->timestamps();
+==================== 
+<--/category table-->
